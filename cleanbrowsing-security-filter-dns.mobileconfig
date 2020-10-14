@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+        <dict>
+            <key>Name</key>
+            <string>CleanBrowsing Security Filter DNS over HTTPS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use CleanBrowsing Encrypted DNS over HTTPS</string>
+            <key>PayloadDisplayName</key>
+            <string>CleanBrowsing Security Filter DNS over HTTPS</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.AFCA1444-5AEB-44CD-B23D-5D1B3ADCD1F1</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>A6F9CB2D-F00E-4C3A-90EB-E19E5B872C52</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>2a0d:2a00:1::2</string>
+                    <string>2a0d:2a00:2::2</string>
+                    <string>185.228.168.9</string>
+                    <string>185.228.169.9</string>
+                </array>
+                <key>ServerURL</key>
+                <string>https://doh.cleanbrowsing.org/doh/security-filter/</string>
+            </dict>
+        </dict>
+    </array>
+	<key>PayloadDescription</key>
+	<string>Adds the CleanBrowsing Security Filter DNS to Big Sur and iOS 14 based systems</string>
+	<key>PayloadDisplayName</key>
+	<string>CleanBrowsing Security Filter DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+    <string>r.macOSBeta.0BD60CF6-64B5-4D16-BEA4-7294E93BDD4F</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>01DA864C-C3AF-4039-A8D0-A00D982B1572</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
